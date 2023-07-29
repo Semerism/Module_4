@@ -20,11 +20,20 @@
 
 # commit
 
-def strcounter(s): # решение за N
-    syms_counter = {}
-    for sym in s:
-        syms_counter[sym] = syms_counter.get(sym, 0) + 1
+# def strcounter(s): # решение за N
+#     syms_counter = {}
+#     for sym in s:
+#         syms_counter[sym] = syms_counter.get(sym, 0) + 1
 
-    for sym, count in syms_counter.items():
-        print(sym, count)
-strcounter('aabbbbccd')
+#     for sym, count in syms_counter.items():
+#         print(sym, count)
+# strcounter('aabbbbccd')
+def palindrom_check(text):
+    if text == text[::-1]:
+        print('True')
+    else:
+        print ('False')
+
+    
+    
+    
