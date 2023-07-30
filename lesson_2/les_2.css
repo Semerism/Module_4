@@ -20,7 +20,8 @@ h1 {
     font-family:'Courier New';
 }
 .p4 {
-    font-weight: bold;
-    font-size: 22px;    
-    font-family:'Courier New';
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    text-shadow: 3px -4px 5px green;
 }
